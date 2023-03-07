@@ -2,7 +2,6 @@ import { render, screen } from "@testing-library/react";
 import { Users } from "./Users";
 import { rest } from "msw";
 import { server } from "../../mocks/server";
-import exp from "constants";
 
 describe("Users", () => {
   test("renders correctly", () => {
