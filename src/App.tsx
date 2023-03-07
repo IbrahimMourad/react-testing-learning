@@ -1,11 +1,11 @@
-import "./App.css";
+import './App.css'
 // import { Application } from "./components/application/Application";
 // import { CounterTwo } from "./components/counter-two/CounterTwo";
 // import { Counter } from "./components/counter/counter";
-import { MuiMode } from "./components/mui/mui-mode";
+import { MuiMode } from './components/mui/mui-mode'
 // import { Skills } from "./components/skills/Skills";
 // import { Users } from "./components/users/Users";
-import { AppProviders } from "./providers/app-providers";
+import { AppProviders } from './providers/app-providers'
 function App() {
   return (
     <AppProviders>
@@ -18,7 +18,7 @@ function App() {
         <MuiMode />
       </div>
     </AppProviders>
-  );
+  )
 }
 
-export default App;
+export default App
